@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 class DeRole(commands.Cog):
-    def __init__(Self,bot):
+    def __init__(self,bot):
         self.bot = bot
         self.slash = bot.slash
 

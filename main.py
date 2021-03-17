@@ -7,6 +7,7 @@ BOT_TOKEN = setting.BOT
 
 extensions = [
     "cogs.admin",
+    "cogs.derole",
 ]
 for extension in extensions:
     bot.load_extension(extension)
